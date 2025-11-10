@@ -1,4 +1,6 @@
 # Streamify Customer Churn & Retention Analytics
+> An end-to-end subscription churn analytics case study demonstrating data modeling, business KPI development, and executive-level insight storytelling.
+
 
 ## Objective
 This project analyzes customer churn patterns and retention behavior for **Streamify**, a subscription-based streaming platform.  
@@ -43,6 +45,7 @@ Streamify-Churn-Analytics/
   ```sql
   status IN ('cancelled', 'expired') → Churned  
   status = 'active' → Retained
+
 
 
 ---
