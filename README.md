@@ -24,12 +24,13 @@ Streamify-Churn-Analytics/
 --- 
 
 ## Key Insights
---The overall **churn rate is 18.6%**, meaning nearly **1 in 5 customers leave** the platform.
---**Churn is steadily decreasing**, indicating improved retention strategy or product value realization over time.
---The **Pro plan has the highest churn (≈20%)**, suggesting lower perceived value post-upgrade.
---Customers acquired via **YouTube & Google Ads show the strongest retention (≈75%+)**, making these the **highest value acquisition channels**.
---The **18–24 age segment churns the most**, likely due to pricing sensitivity or shorter product commitment cycles.
---Improving **first 30-day onboarding & engagement** can significantly reduce churn.
+
+- The overall **churn rate is 18.6%**, which means nearly **1 in 5 customers discontinue** the service.
+- **Churn is gradually decreasing** month-over-month, indicating improved product experience or retention strategy impact.
+- The **Pro plan shows the highest churn (~20%)**, suggesting lower perceived value after upgrade.
+- Customers acquired through **YouTube and Google Ads** demonstrate **stronger retention (≥75%)**, making them the **highest-value acquisition channels**.
+- The **18–24 age segment has the highest churn**, likely due to price sensitivity and shorter subscription commitment behavior.
+- Strengthening **first 30-day onboarding and engagement** presents a key opportunity to reduce churn.
 
 --- 
 
