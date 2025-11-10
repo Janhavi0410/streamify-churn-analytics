@@ -96,9 +96,14 @@ CALCULATE(
 
 --- 
 
-##  Outcome & Business Value This analytics system provides strategic clarity to: 
--Reduce churn by improving onboarding and value communication
--Strengthen **Pro plan value positioning
--Prioritize **high-retention acquisition channels*
--Design **targeted retention programs** for vulnerable age segments
+## Outcome & Business Value
+
+This project provides clear insights to support data-driven retention strategy development:
+
+- Identified **high-churn customer segments** and specific product experience gaps.
+- Highlighted **Pro plan value-perception issues**, guiding pricing and feature communication strategy.
+- Confirmed **YouTube & Google Ads** as **strong retention acquisition channels**, informing marketing budget allocation.
+- Quantified **MRR and revenue loss due to churn**, enabling financial impact tracking.
+- Provides a repeatable analytics framework for ongoing **subscription performance monitoring**.
+
   
