@@ -5,14 +5,16 @@ This project analyzes customer churn patterns and retention behavior for **Strea
 The goal is to identify **drivers of churn**, determine **high-risk customer segments**, and propose strategies to **improve retention and revenue stability**.
 
 ---
-
 ## Project Structure
+
+```
 Streamify-Churn-Analytics/
 │
-├── Dashboard/               # Power BI dashboard 
-├── Queries/                 # SQL scripts used for analysis
-├── Data/                    # Dataset 
+├── Dashboard/               # Power BI dashboard (.pbix)
+├── Queries/                 # SQL scripts used for data analysis
+├── Data/                    # Dataset (sample/raw, if included)
 └── Visuals/                 # Dashboard screenshots
+```
 
 ---
 
