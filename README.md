@@ -82,13 +82,17 @@ CALCULATE(
 ```
 
 
-## Tools Used 
-Power BI    - Dashboard & visual analytics 
-Power Query - Data cleaning, shaping, and transformation before modeling 
-DAX         -  Creating calculated measures (Churn Rate %, Retention %, MRR, etc.)
-SQL (MySQL) - Data extraction, segmentation & KPIs 
-Excel / CSV - Data preprocessing 
-GitHub      - Portfolio documentation & showcase 
+## Tools Used
+
+| Tool / Technology     | Purpose |
+|-------------------|---------|
+| **Power BI Desktop** | Designed visual dashboards and interactive reports |
+| **Power Query (Power BI)** | Cleaned, shaped, and transformed raw data before modeling |
+| **DAX (Data Analysis Expressions)** | Created calculated measures (Churn Rate %, Retention %, MRR, Revenue Loss, etc.) |
+| **MySQL** | Performed data extraction, joins, segmentation, and KPI calculations |
+| **Excel / CSV** | Initial dataset exploration and preprocessing |
+| **Git & GitHub** | Version control, documentation, and project portfolio showcase |
+
 
 --- 
 
