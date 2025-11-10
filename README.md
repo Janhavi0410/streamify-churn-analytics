@@ -33,15 +33,14 @@ Streamify-Churn-Analytics/
 
 --- 
 
-##  SQL Logic Summary - Joined customer, subscription, and payment tables to analyze complete subscription lifecycle.
-- Joined customer, subscription, and payment tables to analyze complete subscription lifecycle.
-- Classified churn using subscription status:status IN ('cancelled','expired') → churned status = 'active' → retained
-- Calculated churn & retention rates by:
--  Month
--  -- Subscription plan type
--  -- Customer acquisition channel
--  --Customer age segment
--  --Measured **MRR (Monthly Recurring Revenue)** and **revenue loss due to churn**.
+## SQL Logic Summary
+
+- Joined **customer**, **subscription**, and **payment** tables to analyze the complete subscription lifecycle.
+- Classified churn based on subscription status:
+  ```sql
+  status IN ('cancelled', 'expired') → Churned  
+  status = 'active' → Retained
+
 
 ---
 
