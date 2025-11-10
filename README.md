@@ -45,15 +45,40 @@ Streamify-Churn-Analytics/
 
 ---
 
-## Key DAX Measures (Power BI) 
-Total Customers = DISTINCTCOUNT(Customers[customer_id])
-Active Customers = CALCULATE( DISTINCTCOUNT(Subscriptions[customer_id]), Subscriptions[status] = "active" ) 
-Churned Customers = CALCULATE( DISTINCTCOUNT(Subscriptions[customer_id]), Subscriptions[status] <> "active" )
-Churn Rate % = DIVIDE([Churned Customers], [Total Customers], 0) 
-MRR = CALCULATE(SUM(Payments[amount]), Subscriptions[status] = "active")
-Revenue Lost Due to Churn = CALCULATE(SUM(Payments[amount]),Subscriptions[status] <> "active")
+## Key DAX Measures (Power BI)
 
----
+```DAX
+Total Customers =
+DISTINCTCOUNT(Customers[customer_id])
+
+Active Customers =
+CALCULATE(
+    DISTINCTCOUNT(Subscriptions[customer_id]),
+    Subscriptions[status] = "active"
+)
+
+Churned Customers =
+CALCULATE(
+    DISTINCTCOUNT(Subscriptions[customer_id]),
+    Subscriptions[status] <> "active"
+)
+
+Churn Rate % =
+DIVIDE([Churned Customers], [Total Customers], 0)
+
+MRR =
+CALCULATE(
+    SUM(Payments[amount]),
+    Subscriptions[status] = "active"
+)
+
+Revenue Lost Due to Churn =
+CALCULATE(
+    SUM(Payments[amount]),
+    Subscriptions[status] <> "active"
+)
+```
+
 
 ## Tools Used 
 Power BI    - Dashboard & visual analytics 
